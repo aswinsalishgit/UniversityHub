@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}University Hub{% endblock %}</title>
+</head>
+<body>
+    <nav>
+        <h1>University Hub Portal</h1>
+        <a href="academic/courses/">Courses</a> | <a href="/admin/">Admin</a>
+    </nav>
+
+    <hr>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>© 2026 University Hub Systems</p>
+    </footer>
+</body>
+</html>
