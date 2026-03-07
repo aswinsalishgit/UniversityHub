@@ -7,4 +7,5 @@ urlpatterns = [
     #path(route, view, name)
     path('hello/', views.hello_world),
     path('courses/', views.course_list),
+    path("register-student/", views.student_create, name="student_create"),
 ]
